@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMC innovations</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #ddd;
+        }
+        header {
+            background: linear-gradient(90deg, #6a0dad, #3d0075);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 50px;
+            text-align: center;
+        }
+        .content {
+            background: #222;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+            max-width: 900px;
+        }
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 JMC innovations</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">ℹ️ Sobre</a></li>
+                <li><a href="#servicos">💼 Serviços</a></li>
+                <li><a href="#portfolio">📂 Portfólio</a></li>
+                <li><a href="#depoimentos">🗣️ Depoimentos</a></li>
+                <li><a href="#blog">📝 Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre" class="content">
+        <h2>ℹ️ Sobre Nós</h2>
+        <p>Somos uma empresa inovadora focada em oferecer soluções tecnológicas de ponta para nossos clientes.</p>
+    </section>
+    
+    <section id="servicos" class="content">
+        <h2>💼 Nossos Serviços</h2>
+        <ul>
+            <li>📊 Consultoria estratégica</li>
+            <li>💻 Desenvolvimento de software</li>
+            <li>🛠️ Infraestrutura e suporte</li>
+            <li>🔒 Segurança Cibernética</li>
+            <li>📈 Análise de Dados</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio" class="content">
+        <h2>📂 Nosso Portfólio</h2>
+        <p>Já ajudamos diversas empresas a alcançarem seus objetivos com tecnologia de alto nível.</p>
+    </section>
+    
+    <section id="depoimentos" class="content">
+        <h2>🗣️ O que nossos clientes dizem</h2>
+        <p>"A JMC innovations transformou nosso negócio! 🚀" - Cliente A</p>
+        <p>"Excelente suporte e inovação constante! 💡" - Cliente B</p>
+    </section>
+    
+    <section id="blog" class="content">
+        <h2>📝 Blog</h2>
+        <p>📌 Últimos artigos:</p>
+        <ul>
+            <li>🔹 Como a tecnologia pode impulsionar seu negócio</li>
+            <li>🔹 As tendências do mercado de TI para 2025</li>
+            <li>🔹 Dicas de cibersegurança para sua empresa</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 JMC innovations - Todos os direitos reservados. 🌟</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
